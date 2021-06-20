@@ -44,10 +44,10 @@ int main ()
 	printf("\t\t\t\t\t-WELCOME TO STUDENT MANAGEMENT SYSTEM-\n\n");
 	printf("\t\t\t\t\t**************************************\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n");
 	printf("\t\t\t\t\t\t\t\t\t\tThe Project Was Created By:-\n\n");
-	printf("\t\t\t\t\t\t\t\t\t\t\t\-Miraj Maharjan\n");
-	printf("\t\t\t\t\t\t\t\t\t\t\t\-Sajja Aryal\n");
-	printf("\t\t\t\t\t\t\t\t\t\t\t\-Norgen Moktan\n");
-	printf("\t\t\t\t\t\t\t\t\t\t\t\-Bipin Subedi\n");
+	printf("\t\t\t\t\t\t\t\t\t\t\t-Miraj Maharjan\n");
+	printf("\t\t\t\t\t\t\t\t\t\t\t-Sajja Aryal\n");
+	printf("\t\t\t\t\t\t\t\t\t\t\t-Norgen Moktan\n");
+	printf("\t\t\t\t\t\t\t\t\t\t\t-Bipin Subedi\n");
 	printf("\tPlease contact ADMIN for queries\n\n");
 
 	printf("\tPress ANY KEY to continue, <ESC> to exit. \n");
