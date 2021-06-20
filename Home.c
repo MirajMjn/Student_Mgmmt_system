@@ -19,7 +19,7 @@ int length = 25;
 
 char fname[16];
 char lname[16];
-long int contact;
+long long int contact;
 char email[32];
 int grade;
 char stream[16];	// admin teacher student
@@ -189,7 +189,7 @@ enter_role:
 			scanf("%s %s", &fname, &lname);
 
 			printf("\n\tContact\t:");
-			scanf("%ld", &contact);
+			scanf("%lld", &contact);
 
 			printf("\n\tE-Mail\t:");
 			scanf("%s", &email);
@@ -203,7 +203,7 @@ enter_role:
 			scanf("%s %s", &fname, &lname);
 
 			printf("\n\tContact\t:");
-			scanf("%ld", &contact);
+			scanf("%lld", &contact);
 
 			printf("\n\tE-Mail\t:");
 			scanf("%s", &email);
@@ -225,7 +225,7 @@ enter_role:
 			wipe();
 			printf("\nPlease Check The Information Entered Carefully\n\n");
 			printf("\n\tName\t: %s %s\n", fname, lname);
-			printf("\n\tContact\t: %ld\n", contact);
+			printf("\n\tContact\t: %lld\n", contact);
 			printf("\n\tEmail\t: %s\n", email);
 			if (access_level == 1){
 				printf("\n\tStream\t: %s\n", stream);
