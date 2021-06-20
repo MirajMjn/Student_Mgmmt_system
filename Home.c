@@ -174,34 +174,34 @@ enter_role:
 	{
 		wipe();
 	}
-	
+
 	data_entry: printf("\nPLease Fill Out The Following Info Correctly: \n");
 	switch(access_level)
 	{
 		case 1: //student
 			printf("\n\tName\t:");
 			scanf("%s %s", &fname, &lname);
-			
+
 			printf("\n\tContact\t:");
 			scanf("%ld", &contact);
-			
+
 			printf("\n\tE-Mail\t:");
 			scanf("%s", &email);
-			
+
 			printf("\n\tStream\t:");
 			scanf("%s", &stream);
 		break;
-		
+
 		case 2: //teacher
 			printf("\n\tName\t:");
 			scanf("%s %s", &fname, &lname);
-			
+
 			printf("\n\tContact\t:");
 			scanf("%ld", &contact);
-			
+
 			printf("\n\tE-Mail\t:");
 			scanf("%s", &email);
-			
+
 			printf("\n\tSubject\t:");
 			scanf("%s", &sub);
 		break;
@@ -213,7 +213,6 @@ enter_role:
 	segment();
 	printf("\nPress <ENTER> to confirm submission\nPress <ESC> to exit\nPress <x> to re-enter\nPress <BKSPC> to go back to previous screen");
 	key = getch();
-	printf("%d", key); getch();
 	switch(key)
 	{
 		case ENTER_KEY:
@@ -240,28 +239,28 @@ enter_role:
 					getch();
 					status = 1;
 				break;
-				
+
 				case ('x'):
 				case ('X'):
 					goto signup;
 				break;
-		
+
 				case ESC_KEY:
 					exit(0);
 				break;
 				default: goto enter_key;
-			}	
+			}
 		break;
-		
+
 		case BKSPC_KEY:
 			goto data_entry;
 		break;
-		
+
 		case ('x'):
 		case ('X'):
 			goto signup;
 		break;
-		
+
 		case ESC_KEY:
 			exit(0);
 		break;
@@ -283,5 +282,3 @@ void segment()
 	}
 	printf("\n");
 }
-
-
