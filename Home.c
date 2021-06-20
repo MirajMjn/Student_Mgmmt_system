@@ -40,9 +40,14 @@ int main ()
 
 
 //---------------------------------------------------------------------------------------------	<opening welcome>
-	printf("\t\t-----WELCOME TO STUDENT MGMMT SYS-----\n\n\n");
-	printf("\t\t-----The Project Was Created By:-----\n\n\n");
-	printf("\t\t-----<insert names here>-----\n\n\n");
+	printf("\t\t\t\t\t**************************************\t\t\n\n");
+	printf("\t\t\t\t\t-WELCOME TO STUDENT MANAGEMENT SYSTEM-\n\n");
+	printf("\t\t\t\t\t**************************************\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n");
+	printf("\t\t\t\t\t\t\t\t\t\tThe Project Was Created By:-\n\n");
+	printf("\t\t\t\t\t\t\t\t\t\t\t\-Miraj Maharjan\n");
+	printf("\t\t\t\t\t\t\t\t\t\t\t\-Sajja Aryal\n");
+	printf("\t\t\t\t\t\t\t\t\t\t\t\-Norgen Moktan\n");
+	printf("\t\t\t\t\t\t\t\t\t\t\t\-Bipin Subedi\n");
 	printf("\tPlease contact ADMIN for queries\n\n");
 
 	printf("\tPress ANY KEY to continue, <ESC> to exit. \n");
@@ -114,9 +119,10 @@ int is_new_user()
 {
 	int status;
 	wipe();
-	printf("HOME PAGE: \n\n");
+	printf(" \t\t\t\t\t\tHOME PAGE\n");
+	printf("\t\t\t\t\t--------------------------\n\n");
 	printf(
-		"\n\tPlease enter key based on requirement :\n\n \tlogin\t->(0)\n \tsign-up\t->(1)\n\t<PRESS ESC KEY TO EXIT>\n\t"
+		"\n\tPlease enter key based on requirement :\n\n \tlogin\t->(0)\n \tsign-up\t->(1)\n\n\n\t<PRESS ESC KEY TO EXIT>\n\t"
 	);
 input:
 	status = getch() - NUM_DIFF; //ascii 48 -> ...
